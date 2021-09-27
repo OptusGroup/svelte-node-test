@@ -4,5 +4,8 @@
 	"scripts": {
 		"start": "node index.js"
 	},
+	"dependencies": {
+		"npm": "^7.24.1"
+	},
 	"type": "module"
 }
