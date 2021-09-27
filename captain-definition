@@ -1,4 +1,7 @@
  {
   "schemaVersion": 2,
-  "templateId": "node/16.6.2"
+  "templateId": "node/16.6.2",
+  "dockerfileLines": [
+                        "RUN npm install -g npm@7.24.1 && npm cache clean --force"
+                    ]
  }
